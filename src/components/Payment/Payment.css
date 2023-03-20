@@ -21,3 +21,38 @@
 	left: 88px;
 	top: 188px;
 }
+
+.Pinput {
+	position: absolute;
+	width: 609px;
+	height: 66px;
+	left: 88px;
+	top: 403px;
+	border: none;
+	opacity: 75%;
+	background: #eeeeee;
+	border-bottom: 1px solid #9563ff;
+	border-radius: 10px;
+}
+
+.Pinput::placeholder {
+	font-size: 23px;
+	color: #a175ff;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.holder-name {
+	position: absolute;
+	width: 180px;
+	height: 24px;
+	left: 92px;
+	top: 377px;
+	opacity: 75%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+}
