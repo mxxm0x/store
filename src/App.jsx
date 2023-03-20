@@ -1,6 +1,6 @@
 import './App.css';
 import Checkout from './components/Checkout/Checkout';
-import Payment from './components/Payment/Payment';
+import Payment from './components/Payment/Payment.jsx';
 
 function App() {
 	return (
