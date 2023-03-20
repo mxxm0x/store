@@ -1,10 +1,11 @@
 import './App.css';
 import Checkout from './components/Checkout/Checkout';
-import ShoePrice from './components/ShoesPrice/ShoePrice';
+import Payment from './components/Payment/Payment';
 
 function App() {
 	return (
 		<div className="App">
+			<Payment />
 			<Checkout />
 		</div>
 	);
