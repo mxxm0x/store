@@ -9,6 +9,7 @@ function Checkout() {
 					<p className="header-text">You're paying,</p>
 					<h1 className="header-value">$450.00</h1>
 				</div>
+
 				<div className="products">
 					<p className="title">Custom Gucci Shoes</p>
 					<p className="sub1">Size: m Color: Red</p>

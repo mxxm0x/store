@@ -8,7 +8,7 @@
 	margin-top: 50px;
 	margin-right: 50px;
 
-	background-color: rgb(148, 21, 171);
+	background-color: rgb(251, 228, 255);
 }
 
 .background {
@@ -16,6 +16,7 @@
 	height: auto;
 	background-color: #f0f0f0;
 	padding-top: 20px;
+	justify-content: space-between;
 }
 
 .header-text {
@@ -35,41 +36,48 @@
 }
 
 .title {
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 26px;
 }
 
 .sub1 {
-	font-weight: 500px;
+	font-weight: 500;
 	font-size: 20px;
+	color: #575757;
 }
 
 .title2 {
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 26px;
 }
 
 .sub2 {
-	font-weight: 500px;
+	font-weight: 500;
 	font-size: 20px;
+	color: #575757;
 }
 
 .discounts {
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 26px;
 }
 
 .tax {
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 26px;
 }
 
 .final {
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 26px;
 }
 
 .costs {
 	font-weight: 500;
 	font-size: 24px;
+	flex-direction: column;
+}
+
+.products {
+	flex-direction: column;
 }
