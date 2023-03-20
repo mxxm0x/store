@@ -10,7 +10,6 @@ function Payment(props) {
 				To start your subscription, input your card details to make payment. You
 				will be redirected to your banks authorization page .{' '}
 			</p>
-
 			<label className="lholder-name">Cartholder's name</label>
 			<Input place={'PAULINA CHIMAROKE'} className={'Pinput'} />
 
@@ -27,7 +26,7 @@ function Payment(props) {
 			<span className="apply">Apply</span>
 			<Input place={'CHIKAMSO-20-OFF'} className={'card-coupon'} />
 			<Button />
-		</div>
+      </div>
 	);
 }
 
