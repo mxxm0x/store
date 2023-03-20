@@ -1,10 +1,13 @@
 import React from 'react';
-
-function Input() {
+import './Payment.css';
+function Input(props) {
 	return (
 		<div className="card-info">
-			<p className="holder-name">Cardholder's name</p>
-			<input type="text" className="Pinput" placeholder="EXAMPLE NAME" />
+			<div className="masterCard"></div>
+
+			<div>
+				<input placeholder={props.place} className={props.className} />
+			</div>
 		</div>
 	);
 }
