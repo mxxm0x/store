@@ -1,0 +1,6 @@
+.cContainer {
+	width: 900px;
+	height: auto;
+	display: flex;
+	background-color: aquamarine;
+}
