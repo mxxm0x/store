@@ -16,15 +16,15 @@ function Checkout() {
 					<p className="sub2">Size: m Color: Blue</p>
 					<p className="discounts">Discounts & Offers</p>
 					<p className="tax">Tax</p>
-					<p className="tax">Total</p>
+					<p className="final">Total</p>
+				</div>
 
-					<div className="costs">
-						<p className="value">$400.00</p>
-						<p className="value1">$50.00</p>
-						<p className="value2">$0.00</p>
-						<p className="value3">$0.00</p>
-						<p className="value4">$450.00</p>
-					</div>
+				<div className="costs">
+					<p className="value">$400.00</p>
+					<p className="value1">$50.00</p>
+					<p className="value2">$0.00</p>
+					<p className="value3">$0.00</p>
+					<p className="value4">$450.00</p>
 				</div>
 			</div>
 		</div>

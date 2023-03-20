@@ -33,3 +33,43 @@
 	font-weight: 700px;
 	font-size: 64px;
 }
+
+.title {
+	font-weight: 700px;
+	font-size: 26px;
+}
+
+.sub1 {
+	font-weight: 500px;
+	font-size: 20px;
+}
+
+.title2 {
+	font-weight: 700px;
+	font-size: 26px;
+}
+
+.sub2 {
+	font-weight: 500px;
+	font-size: 20px;
+}
+
+.discounts {
+	font-weight: 700px;
+	font-size: 26px;
+}
+
+.tax {
+	font-weight: 700px;
+	font-size: 26px;
+}
+
+.final {
+	font-weight: 700px;
+	font-size: 26px;
+}
+
+.costs {
+	font-weight: 500;
+	font-size: 24px;
+}
