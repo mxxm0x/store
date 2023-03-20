@@ -31,10 +31,11 @@ input {
 
 .Pinput {
 	position: absolute;
-	width: 609px;
+	width: 530px;
 	height: 75px;
 	left: 88px;
 	top: 403px;
+	padding-left: 97px;
 	border: none;
 	opacity: 75%;
 	background: #eeeeee;
@@ -48,6 +49,7 @@ input {
 	position: absolute;
 	top: 20px;
 	left: 20px;
+	padding-left: 75px;
 }
 
 .card-number {
