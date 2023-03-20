@@ -4,3 +4,8 @@
 	display: flex;
 	background-color: aquamarine;
 }
+
+.background {
+	width: 503px;
+	height: auto;
+}
