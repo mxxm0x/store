@@ -31,10 +31,11 @@ input {
 
 .Pinput {
 	position: absolute;
-	width: 609px;
+	width: 530px;
 	height: 75px;
 	left: 88px;
-	top: 403px;
+	top: 385px;
+	padding-left: 97px;
 	border: none;
 	opacity: 75%;
 	background: #eeeeee;
@@ -48,12 +49,14 @@ input {
 	position: absolute;
 	top: 20px;
 	left: 20px;
+	padding-left: 75px;
 }
 
 .card-number {
 	position: absolute;
-	width: 609px;
-	height: 66px;
+	width: 530px;
+	height: 75px;
+	padding-left: 97px;
 	left: 88px;
 	top: 510px;
 	border: none;
@@ -156,8 +159,9 @@ input {
 
 .card-coupon {
 	position: absolute;
-	width: 609px;
-	height: 66px;
+	width: 530px;
+	height: 75px;
+	padding-left: 97px;
 	left: 88px;
 	top: 724px;
 	border: none;
@@ -185,6 +189,7 @@ input {
 	top: 20px;
 	left: 20px;
 	opacity: 75%;
+	padding-left: 75px;
 }
 
 .btn-1 {
@@ -206,8 +211,10 @@ input {
 	width: 180px;
 	height: 24px;
 	left: 92px;
-	top: 377px;
+	top: 355px;
 	margin-bottom: 25px;
+	font-size: 20px;
+	color: #575757;
 }
 
 .lcard-number {
@@ -238,10 +245,12 @@ input {
 }
 
 .lcoupoun {
-	position: absolute;
+	position: grid;
 	width: 140px;
 	height: 24px;
-	left: 92px;
-	top: 693px;
 	margin-bottom: 25px;
+}
+
+.label {
+	row-gap: 10%;
 }

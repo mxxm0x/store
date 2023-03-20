@@ -5,8 +5,15 @@ import Payment from './components/Payment/Payment.jsx';
 function App() {
 	return (
 		<div className="App">
-			<Payment />
-			<Checkout />
+			<div className="left">
+				<Payment />
+			</div>
+
+			<div className="right">
+				<Checkout />
+			</div>
+			
+			
 		</div>
 	);
 }
