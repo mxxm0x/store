@@ -15,22 +15,19 @@
 	width: 503px;
 	height: auto;
 	background-color: #f0f0f0;
-	padding-top: 20px;
-	justify-content: space-between;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
 }
 
 .header-text {
-	margin: auto;
-	margin-left: 40px;
-	margin-top: 71px;
 	font-weight: 500px;
 	font-size: 24px;
 	color: #575757;
 }
 
 .header-value {
-	margin: auto;
-	margin-left: 40px;
 	font-weight: 700px;
 	font-size: 64px;
 }
@@ -75,9 +72,17 @@
 .costs {
 	font-weight: 500;
 	font-size: 24px;
+	display: flex;
 	flex-direction: column;
+	text-align: right;
 }
 
 .products {
+	display: flex;
 	flex-direction: column;
+	text-align: left;
+}
+
+.all {
+	line-height: 50px;
 }
