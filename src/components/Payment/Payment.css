@@ -34,7 +34,7 @@ input {
 	width: 530px;
 	height: 75px;
 	left: 88px;
-	top: 403px;
+	top: 385px;
 	padding-left: 97px;
 	border: none;
 	opacity: 75%;
@@ -211,8 +211,10 @@ input {
 	width: 180px;
 	height: 24px;
 	left: 92px;
-	top: 377px;
+	top: 355px;
 	margin-bottom: 25px;
+	font-size: 20px;
+	color: #575757;
 }
 
 .lcard-number {
@@ -243,10 +245,12 @@ input {
 }
 
 .lcoupoun {
-	position: absolute;
+	position: grid;
 	width: 140px;
 	height: 24px;
-	left: 92px;
-	top: 693px;
 	margin-bottom: 25px;
+}
+
+.label {
+	row-gap: 10%;
 }
