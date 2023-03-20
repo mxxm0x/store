@@ -5,8 +5,8 @@ function Checkout() {
 	return (
 		<div className="cContainer">
 			<div className="background">
-				<p>You're paying,</p>
-				<h1>$</h1>
+				<p className="first">You're paying,</p>
+				<h1 className="value">$450.00</h1>
 			</div>
 		</div>
 	);
