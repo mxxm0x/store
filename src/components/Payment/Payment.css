@@ -1,4 +1,23 @@
 .headerText {
 	font-size: 40px;
 	font-family: Inter;
+	font-weight: bold;
+
+	position: absolute;
+	width: auto;
+	height: 48px;
+	left: 88px;
+	top: 101px;
+}
+
+.call-to-card {
+	font-weight: 500;
+	opacity: 50%;
+	font-size: 24px;
+
+	position: absolute;
+	width: 800px;
+	height: 58px;
+	left: 88px;
+	top: 188px;
 }
