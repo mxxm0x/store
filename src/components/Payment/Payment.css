@@ -9,6 +9,13 @@
 	left: 88px;
 	top: 101px;
 }
+input {
+	font-family: 'Inter', sans-serif;
+	font-size: 23px;
+	color: #6b26ff;
+	padding-left: 20px;
+	font-weight: 600;
+}
 
 .call-to-card {
 	font-weight: 500;
@@ -25,7 +32,7 @@
 .Pinput {
 	position: absolute;
 	width: 609px;
-	height: 66px;
+	height: 75px;
 	left: 88px;
 	top: 403px;
 	border: none;
@@ -43,9 +50,39 @@
 	left: 20px;
 }
 
+.card-number {
+	position: absolute;
+	width: 609px;
+	height: 66px;
+	left: 88px;
+	top: 510px;
+	border: none;
+	opacity: 75%;
+	background: #eeeeee;
+	border-bottom: 1px solid #9563ff;
+	border-radius: 10px;
+}
+
+.card-number::placeholder {
+	margin-left: 12%;
+	font-size: 23px;
+	color: #a175ff;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.Pinput::placeholder {
+	font-size: 23px;
+	color: #a175ff;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
 .holder-name {
 	position: absolute;
-	width: 180px;
+	width: 190px;
 	height: 24px;
 	left: 92px;
 	top: 377px;
@@ -55,4 +92,156 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 24px;
+}
+
+.masterCard {
+	position: absolute;
+	width: 62px;
+	height: 33px;
+	left: 100px;
+	top: 526px;
+	z-index: 99;
+
+	background: url(../../assests/images/mastercard.jpg);
+	mix-blend-mode: multiply;
+	border-radius: 10px;
+}
+
+.expire-date {
+	position: absolute;
+	width: 150px;
+	height: 66px;
+	left: 88px;
+	top: 616px;
+	border: none;
+	opacity: 75%;
+	background: #eeeeee;
+	border-bottom: 1px solid #9563ff;
+	border-radius: 10px;
+	text-align: center;
+	padding-right: 20px;
+}
+
+.expire-date::placeholder {
+	font-size: 23px;
+	color: #a175ff;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-cvc {
+	position: absolute;
+	width: 150px;
+	height: 66px;
+	left: 525px;
+	top: 616px;
+	border: none;
+	opacity: 75%;
+	background: #eeeeee;
+	border-bottom: 1px solid #9563ff;
+	border-radius: 10px;
+	text-align: center;
+	padding-right: 20px;
+}
+
+.card-cvc::placeholder {
+	justify-content: center;
+	align-items: center;
+	font-size: 23px;
+	color: #a175ff;
+	position: absolute;
+	top: 20px;
+	right: 75px;
+}
+
+.card-coupon {
+	position: absolute;
+	width: 609px;
+	height: 66px;
+	left: 88px;
+	top: 724px;
+	border: none;
+	opacity: 75%;
+	background: #eeeeee;
+	border-bottom: 1px solid #9563ff;
+	border-radius: 10px;
+}
+
+.apply {
+	position: absolute;
+	left: 30%;
+	top: 742px;
+	font-size: 24px;
+	color: #9563ff;
+	font-weight: 700;
+	z-index: 99;
+	letter-spacing: 5%;
+}
+
+.card-coupon::placeholder {
+	font-size: 23px;
+	color: #a175ff;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	opacity: 75%;
+}
+
+.btn-1 {
+	position: absolute;
+	width: 242px;
+	height: 66px;
+	left: 88px;
+	top: 830px;
+	font-weight: 700;
+	color: white;
+	font-size: 24px;
+	background: #9563ff;
+	border-radius: 10px;
+	border: none;
+}
+
+.lholder-name {
+	position: absolute;
+	width: 180px;
+	height: 24px;
+	left: 92px;
+	top: 377px;
+	margin-bottom: 25px;
+}
+
+.lcard-number {
+	position: absolute;
+	width: 127px;
+	height: 24px;
+	left: 92px;
+	top: 479px;
+	margin-bottom: 25px;
+}
+
+.lexpiration-date {
+	position: absolute;
+	width: 130px;
+	height: 24px;
+	left: 92px;
+	top: 586px;
+	margin-bottom: 25px;
+}
+
+.lcvc {
+	position: absolute;
+	width: 42px;
+	height: 24px;
+	left: 535px;
+	top: 590px;
+	margin-bottom: 25px;
+}
+
+.lcoupoun {
+	position: absolute;
+	width: 140px;
+	height: 24px;
+	left: 92px;
+	top: 693px;
+	margin-bottom: 25px;
 }
