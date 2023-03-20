@@ -1,7 +1,12 @@
 import React from 'react';
-
+import './Checkout.css';
 function Checkout() {
-	return <div>Checkout</div>;
+	return (
+		<div>
+			<ShoePrice />
+			<p>oi</p>
+		</div>
+	);
 }
 
 export default Checkout;
