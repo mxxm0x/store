@@ -16,21 +16,20 @@
 	height: auto;
 	background-color: #f0f0f0;
 	padding-top: 20px;
-	padding-bottom: 700px;
-	text-align: center;
 }
 
 .first {
 	margin: auto;
-	margin-right: 300px;
-	margin-top: 50px;
+	margin-left: 40px;
+	margin-top: 71px;
 	font-weight: 500px;
 	font-size: 24px;
+	color: #575757;
 }
 
 .value {
 	margin: auto;
-	margin-right: 200px;
+	margin-left: 67px;
 	font-weight: 700px;
 	font-size: 64px;
 }
